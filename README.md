@@ -53,8 +53,6 @@ login user can start shopping, they can choose the category that they like also 
 according to their choice, after choosing a product they can add it to the cart or keep it on the wishlist.
 They can place an order by simply clicking on the place order.
 
-## Grade proposal for yourself: 5 
-(because I used advanced html with css and add js to fuction the store correctly, time consuming about 2 weeks of hard work).
 
 ## Creators  
 
