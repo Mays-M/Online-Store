@@ -1,0 +1,246 @@
+.footer-content-section {
+  background-color: rgb(12, 9, 9);
+  color: #eee;
+  padding: 60px 220px 0 220px;
+}
+
+.footer-container {
+  display: -moz-box;
+  display: flex;
+  -moz-box-orient: vertical;
+  -moz-box-direction: normal;
+  flex-direction: column;
+  grid-column: contain;
+  justify-content: space-between;
+}
+
+@media (min-width: 950px) {
+  .footer-container {
+    -moz-box-orient: horizontal;
+    -moz-box-direction: normal;
+    flex-direction: row;
+    -moz-box-pack: justify;
+  }
+}
+@media (max-width: 809px) {
+  .footer-content-section {
+    padding: 60px 20px 0 20px;
+  }
+  .footer-p {
+    max-width: 14rem;
+  }
+}
+
+.footer-logo {
+  margin: 0;
+  width: 148px;
+  height: 48px;
+  display: inline-block;
+}
+
+.footer-p {
+  margin: 2em 0 1.5em;
+  line-height: 1.6;
+  color: #eee;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  width: 450px;
+  padding-top: 15px;
+  font-size: 1.1rem;
+}
+
+.footer-media {
+  list-style-type: none;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: start;
+  align-items: flex-start;
+  margin: 0;
+  padding: 15px 0 0 0;
+  color: #15b7a8;
+}
+
+@media (max-width: 950px) {
+  .footer-media {
+    padding-top: 0;
+  }
+}
+
+.footer-media a {
+  color: #15b7a8;
+}
+
+/* FOOTER RIGHT SIDE -------------------------------------------------------------- */
+
+.footer__right-container {
+  margin-bottom: 0;
+  display: flex;
+}
+
+.footer-title {
+  font-size: 1.2rem;
+  font-weight: 200;
+  color: #fbfbfb;
+  margin: 0 0 1rem;
+}
+
+@media (max-width: 950px) {
+  .footer-title {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-size: 25px;
+  }
+}
+
+.footer-contact {
+  padding: 0.5rem 0;
+  margin-bottom: 2.5rem;
+}
+
+.footer-contact-li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-contact-li a {
+  color: #15b7a8;
+}
+
+@media (max-width: 950px) {
+  .footer-contact {
+    padding: 0;
+  }
+}
+
+/* FOOTER JAMK LOGO ------------------------------------------------------------------------------- */
+
+.footer-jamk {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-jamk-l {
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.footer-jamk-logo {
+  max-width: 260px;
+  max-height: 62px;
+}
+
+@media (max-width: 809px) {
+  .footer-jamk {
+    justify-content: flex-start;
+  }
+}
+
+/* FOOTER COPYRIGHT ------------------------------------------------------------------------------------------  */
+
+.footer-copyright {
+  border-top: solid 1px #818899;
+  height: 3rem;
+  overflow: hidden;
+  padding-bottom: 20px;
+  float: left;
+}
+
+.footer-copyright-p {
+  color: #818899;
+}
+
+/* SIGN IN / REGISTER FOOTER COPYRIGHT ------------------------------------------------------------------------------------------*/
+
+.container-page {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Jost', sans-serif;
+  background: linear-gradient(to bottom, #15b7a8, #aff1ea, #ffa340);
+}
+
+h1.label {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.container-form {
+  display: block;
+  margin-top: 1em;
+}
+
+.sign-up-in {
+  width: 350px;
+  height: 410px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 2px 5px 35px #124c47;
+  background-color: #32a39a;
+}
+#chk {
+  display: none;
+}
+
+.label {
+  color: #fff;
+  font-size: 2.3em;
+  justify-content: center;
+  display: flex;
+  margin: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+.input {
+  width: 60%;
+  height: 20px;
+  background: #e0dede;
+  justify-content: center;
+  display: flex;
+  margin: 20px auto;
+  padding: 10px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.button {
+  width: 30%;
+  height: 40px;
+  margin: 10px auto;
+  justify-content: center;
+  display: block;
+  color: #fff;
+  background: black;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: 0.2s ease-in;
+  cursor: pointer;
+}
+.button:hover {
+  background: #15b7a8;
+}
+
+.footer-gdpr {
+  border-top: solid 1px #818899;
+  color: #818899;
+  height: 3rem;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: 20px;
+  gap: 60px;
+}
+

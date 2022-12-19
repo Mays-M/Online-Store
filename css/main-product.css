@@ -1,0 +1,209 @@
+#pcontainer{
+    width: 80%;
+    margin-left: 120px;
+    height: 500px;
+    margin-top: -50px;
+}
+#boxContainer{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 12px;
+  }
+  .pbox {
+    border: 1px solid rgb(241, 241, 241);
+    height: 300px;
+    width: 32%;
+    border-radius: 10px;
+}
+#pbox:hover{
+    background-color: #F5FFF5;
+    transition: 1.5s;
+}
+
+.pImg{
+    /* border: 1px solid orange; */
+    height: 67%;
+    width: 100%;
+    padding: 1%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    border-radius: 8px 8px 0px 0px;
+}
+.pText{
+    height: 30%;
+    width: 100%;
+    text-align: left;
+}
+.boxHeading{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+
+}
+.subHeading{
+    margin-top: 20px;
+    margin-left: 20px;
+    color: #2e363e;
+    font-size: 15px;
+    line-height: 100%;
+}
+.subPara{
+    margin-left: 20px;
+    color: #2e363e;
+    margin-right: 10px;
+    font-size: 12px;
+    letter-spacing:0.2px ;
+    margin-top: 10px;
+}
+#herImg{
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_women_perfume_online_777169b8dd.jpg?95355.45000000001);
+  }
+  #himImg {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_men_perfume_online_eab126b205.jpg?95358.41499999969);
+  }
+  #unImg {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_unisex_perfume_online_ecf2a6deb4.jpg?95350.10999999986);
+  }
+  
+  #be1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_baby_care_products_online_7f67a482b9.png?95361.6149999998);
+  }
+  #be2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_fitness_products_online_f1a105826b.png?95361.00499999974);
+  }
+  #be3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_herbal_products_online_5af28e5503.png?95362.21499999965);
+  }
+  
+  #ds1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_women_summer_dresses_online_dabf3f593d.jpg?88178.79999999968);
+  }
+  #ds2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_men_summer_dresses_online_5b4314736f.jpg?88180.28499999992);
+  }
+  #ds3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_watches_online_8ed4cf47f0.jpg?88178.05499999986);
+  }
+  
+  #as1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_playstation_items_online_b061ec1a64.jpg?95354.26999999981);
+  }
+  #as2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_pc_gaming_stations_online_cd1b2de349.jpg?95354.86499999979);
+  }
+  #as3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_retro_gaming_online_3db4d6f5be.jpg?95357.82500000004);
+  }
+  
+  #ts1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_survival_goods_online_f4dd4c107d.jpg?95357.24499999969);
+  }
+  #ts2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_outdoor_camping_goods_online_7e4a480f7d.jpg?95350.77999999977);
+  }
+  #ts3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_hiking_gears_online_ea048ac4c2.jpg?95353.66999999997);
+  }
+  
+  #lb1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_makeup_kits_online_c0679afac3.png?95364.02499999985);
+  }
+  #lb2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_lipsticks_online_70697d1117.png?95362.8249999997);
+  }
+  #lb3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_skin_care_products_online_c3b6a27d93.png?95363.41999999968);
+  }
+  
+  #ed1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_laptops_online_438c088b3a.png?95356.04999999987);
+  }
+  #ed2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_headphones_online_9d321be420.png?95360.37999999963);
+  }
+  #ed3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_phone_cases_online_18655e9c75.png?95359.62500000006);
+  }
+  
+  #book1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_fictional_books_online_ba538f35a0.jpg?95359.02499999975);
+  }
+  #book2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_history_books_online_f886228303.jpg?95352.02499999969);
+  }
+  #book3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_biography_books_online_4bad85f694.jpg?88181.04499999981);
+  }
+  
+  #grind1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_cardio_training_equipments_online_189d89d88f.jpg?88173.59999999963);
+  }
+  #grind2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_team_sports_goods_online_0f39acc8ac.jpg?95351.39499999968);
+  }
+  #grind3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_yoga_essentials_online_2ae845d1a7.jpg?88179.53999999963);
+  }
+  
+  #baby1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_educational_toys_online_030090a2d2.jpg?88174.41999999982);
+  }
+  #baby2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_board_games_online_25d2a2e2b9.jpg?88175.17999999973);
+  }
+  #baby3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_action_figures_online_96001c94dd.jpg?88170.72999999982);
+  }
+  
+  #liv1Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_furniture_online_c12bc79ab5.jpg?88175.96000000004);
+  }
+  #liv2Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/buy_home_decor_products_online_8d1e9ff54d.jpg?95356.64499999984);
+  }
+  #liv3Img {
+    background-image: url(https://cdn.desertcart.com/cms-media/shop_painting_online_48bda695b8.jpg?95352.98999999986);
+  }
+  
+  @media only screen and (max-width: 500px) { 
+  #pcontainer{
+    width: 80%;
+    margin: auto;
+    height: 70%;
+    display: block;
+    padding-top: 1em;
+    margin-top: 0;
+}
+.pbox{
+    border: 1px solid rgb(241, 241, 241);
+    height: 150px;
+    width: 30%;
+    border-radius: 10px;
+}
+.pImg{
+    /* border: 1px solid orange; */
+    height: 67%;
+    width: 80%;
+    padding: 1%;
+    background-size: contain;
+}
+.pText{
+    height: 20%;
+    width: 80%;
+    text-align: left;
+}
+.boxHeading{
+    font-size: 12px;
+}
+.subHeading{
+    margin-top: -20px;
+    margin-left: 10px;
+    font-size: 10px;
+}
+.subPara{
+    margin-left: 10px;
+    margin-right: 0px;
+    font-size: 8px;
+    letter-spacing:0.2px ;
+}}

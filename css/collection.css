@@ -1,0 +1,190 @@
+
+        #container {
+            width: 78%;
+            margin:auto ;
+            padding-left : 1%;
+            padding-right : 1%;
+            padding-top : 1%;
+            padding-bottom : 1%;     
+        }
+       
+      p{
+        margin: 0;
+      }
+ @media screen and (max-width:500px) 
+ {
+    p{
+        font-size: 12px;
+    }
+    
+ }
+        #divsImage{
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+            border-radius: 5px; 
+            width: 170px ;
+            height: 170px ; 
+            padding: 0.8%;
+            position: relative;
+        }
+
+        
+
+        #newCollection{
+            width:100%;
+            height: 280px;
+            margin: auto;
+            margin-top: 20px;
+        }
+        #controls{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 18%;
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+            border-top-right-radius: 5px; 
+            border-top-left-radius: 5px; 
+            display: flex;             
+            padding-left : 1%;
+            padding-right : 1%;
+            font-size: 20px;
+            font-weight: 500;
+        }
+
+        #controls-new{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            column-gap: 18px;
+            font-size: 20px;
+            font-weight: 500;
+
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 60px;
+            height: 26px;
+        }
+
+        .switch input { 
+            opacity: 0;
+            width: 0;
+            height: 0;
+        }
+
+        .slider {
+            position: absolute;
+            cursor: pointer;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: #ccc;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        .slider:before {
+            position: absolute;
+            content: "";
+            height: 18px;
+            width: 20px;
+            left: 4px;
+            bottom: 4px;
+            background-color: white;
+            -webkit-transition: .4s;
+            transition: .4s;
+        }
+
+        input:checked + .slider {
+            background-color: #2196F3;
+        }
+
+        input:focus + .slider {
+            box-shadow: 0 0 1px #2196F3;
+        }
+
+        input:checked + .slider:before {
+            -webkit-transform: translateX(26px);
+            -ms-transform: translateX(26px);
+            transform: translateX(26px);
+        }
+        .slider.round {
+            border-radius: 34px;
+        }
+
+        .slider.round:before {
+            border-radius: 50%;
+        }
+        #required{
+            height: 72%;
+            padding-left : 2%;
+            padding-right : 1%;
+            padding-top : 1.2%;
+            padding-bottom : 1%;
+            display: flex; 
+            align-items: center;
+            column-gap: 2% ; 
+            overflow-x: auto;
+            overflow-y: hidden;
+            white-space: nowrap; 
+            box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+            border-bottom-right-radius: 5px; 
+            border-bottom-left-radius: 5px;      
+        }
+        #newType{          
+            width: max-content;
+            background-color: #4cb9eb;
+            border-radius: 16px;
+            height: 34px;
+            border: none;
+            font-size: 16px;
+            color: #fff;
+            padding: 0 10px;
+            margin-bottom: 1.2%;
+        } 
+
+        #newType:hover{           
+            cursor: pointer;
+        } 
+
+        #TypeNew{
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        #trashIcon:hover{
+           cursor: pointer;
+        }
+
+        #overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0;
+            transition: .3s ease;
+            }
+
+        #divsImage:hover #overlay {
+            opacity: 1;
+        }
+
+        #delete{
+            font-size: 20px;
+            position: absolute;
+            top: 6%;
+            left: 6%;
+            transform: translate(-6%, -6%);
+            -ms-transform: translate(-6%, -6%);
+        }
+        #delete:hover{
+            background-color: rgb(247, 97, 10);
+            padding: 10px;
+            border-radius: 50%;
+        }
+        

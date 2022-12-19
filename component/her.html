@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Online Perfumes For Her Products</title>
+        <link rel="stylesheet" href="../css/innerPage.css">
+            <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/nav.css">
+        <link rel="stylesheet" href="../css/product.css">
+        
+        <script src="https://kit.fontawesome.com/e4ab5f5716.js" crossorigin="anonymous"></script>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+        <!-- User Account Links -->
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="stylesheet" type="text/css" href="../css/useraccount.css">  
+        <script src="https://kit.fontawesome.com/e4ab5f5716.js" crossorigin="anonymous"></script>
+    </head>
+    
+    <body>
+      <header class="bg-dark w-100">
+        <nav class="nav-bar ai-c jc-sb py-1 max-w-80 w-90">
+          <div class="nav--left ai-c">
+            <div class="nav__brand">
+              <div class="nav__brand__logo mr-2">
+                <img
+                  class="nav__brand__logo__img"
+                  src="../images/logo.png"
+                  alt="logo "
+                />
+              </div>
+              <div class="nav__brand__name"><a class="brand-name--sm-w" href="../index.html">Zanobia</a></div>
+            </div>
+  
+            <div class="nav__menu--short px-3 py-1 ai-c">
+              <div><a href="./component/collection.html"><i class="fas fa-bars"></i></a></div>
+            </div>
+  
+            <div class="nav__menu ai-c tupper">
+  
+              <a class="nav__menu__item" href="./collection.html">
+                <div class="nav__menu__item co-r ai-c">
+                  <div class="nav__menu__item-icon mr-2">
+                    <i class="fas fa-home"></i>
+                  </div>
+                  <div class="nav__menu_item-text">Collection</div>
+                </div>
+              </a>
+  
+             
+                <div class="nav__menu__item co-l ai-c">
+                  <div class="nav__menu__item-icon mr-2">
+                    <i class="fas fa-record-vinyl"></i>
+                  </div>
+                  <div >
+                    <button id="explore">Menu</button>
+                  </div>
+                </div>
+              </a>
+  
+              <a class="nav__menu__item" href="cart.html">
+                <div class="nav__menu__item co-l ai-c">
+                  <div class="nav__menu__item-icon mr-2">
+                    <i class="fas fa-shopping-cart"></i>
+                  </div>
+                  <div class="nav__menu_item-text">shopping</div>
+                </div>
+              </a>
+              </div>
+          </div>
+          <div class="nav_links ">
+            <ul class="auth-menu-links"><li><div id="showlogin">Login</div>
+            </li>
+            <li><div id="createlogin" type="submit">Register</div></li></ul>
+              
+            </div>
+          </div>
+         </header>
+         <hr>
+       </div>
+       <br>
+       <main>
+        <div id="optionsForSort">
+            <select name= "price" id="forPrice" onchange="priceSort()">
+            <option value="nofilter">Price</option>
+            <option value="1"> Below 100€ </option>
+            <option value="2"> 100€ - 200€</option>
+            <option value="3">200€ - 300€</option>
+            <option value="4">300€ - 1000€</option>
+            <option value="5"> 1000€ +</option>
+            </select>
+            <select name="IMPORTED_FROM" id="forCountry" onchange="countrySort()">
+                <option value="nofilter">Country</option>
+                <option value="USA"> USA</option>
+                <option value="UK"> UK</option>
+                <option value="UAE">UAE</option>
+                <option value="INDIA">China</option>
+            </select>
+            <select name = "DELIVERY_TIME" id="fortime" onchange="deliverySort()">
+               <option value="0">delivery time</option>
+               <option value="1"> Same Day </option>
+               <option value="2"> 2 days </option>
+               <option value="4"> 3-5 days </option>
+               <option value="6"> 5-8days </option>
+               <option value="10"> 9-15days</option>
+               <option value="16"> 15+ days </option>
+           </select>
+            
+        </div>
+      </main>
+        <div id= "heading">
+            <h2>Online Perfumes For Her Store in Finland</h2>
+        </div>
+        
+        <div id="container">
+ 
+        </div>
+     
+  
+    </body>
+</html>

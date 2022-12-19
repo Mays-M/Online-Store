@@ -1,0 +1,162 @@
+
+#heading{
+    width:80%;
+    margin: auto;
+    margin-top: 60px;
+    color: rgb(24, 24, 24);
+}
+#optionsForSort{
+    width:80%;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom : 15px;
+    background-color: white;
+    display: flex;
+    gap: 1.4% ;
+    border-bottom: 1px solid rgba(56, 55, 55, 0.479);
+    position: sticky;
+    top:0;
+}
+#container{
+    width: 80%;
+    display: grid ;
+    grid-template-columns: repeat(4, 24%);
+    /* border: 1.5px solid red; */
+    margin: auto;
+    column-gap : 1.4%;
+    row-gap : 20px;
+    font-family: Lato,sans-serif;
+}
+
+#optionsForSort > select{
+    width : 33.33% ;
+    height: 55px; 
+    padding: 10px;
+    border-radius: 6px;
+    padding-right: 10px;
+    font-size: 15px;
+}
+
+select option {
+    margin: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #fff;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+}
+
+#maindiv {
+    height: 300px ;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 8px;
+    line-height: 15px;
+    padding: 2%;
+    color:rgba(41, 40, 40, 0.904);
+}
+@media screen and (min-width:0px) and (max-width:400px){
+    #sub1div{
+        
+        width:20%;
+        height: 80%;
+    } 
+    p{
+        font-size: 1px;
+    }
+    #delivery{
+        font-size:0.2em ;
+    }
+    #imagesymbol{
+        width: 1px;}
+    #divr1{
+        width: 20px;
+        font-size: 6px;
+    }    
+        
+    
+    #fromCounty{
+        width:2px;
+        font-size: 0.4em;
+        
+    }
+    #tocount{
+       width: 2px;
+        font-size: 0.4em;
+        height: 2px;
+    }
+    #div1{
+        width: 10%;
+    }
+    #div2{
+        width: 10%;
+    }
+    
+
+#picture{
+    width: 80%;
+    height: 80%;
+}
+#nameofprod {
+    font-size: 0.4em;
+
+}
+#brandofprod{
+    font-size: 0.4em;
+}
+
+}
+
+#maindiv:hover{
+   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+   cursor: pointer;
+}
+
+#picture{
+    width: 45%;
+    height: 55%;
+    margin: auto;
+    margin-left: 25%;
+    margin-bottom: 8%;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+
+}
+p{
+    margin:0;
+    padding:0;
+    line-height: 15px;
+    margin-left : 10px;
+    margin-right : 10px;
+}
+
+#nameofprod{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    font-size: 14px;
+    font-weight: 500;
+    color : black;
+}
+
+#brandofprod{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#sub1div{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    margin-top: 5%;
+    padding-right: 4%;
+}
+
+#cost{
+    font-size: 14px;
+    margin-top: 25%;
+    font-weight: 700;  
+}
+#div2{
+   display:flex ;
+}

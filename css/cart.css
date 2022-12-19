@@ -1,0 +1,289 @@
+#mainDiv{ 
+    display:block;
+   
+    height: 300px;
+    margin-top: 1%;
+   
+}
+#mainDiv > #subDiv1{
+    margin-left: 1%;
+    margin-top: 3%;
+    margin-right: 50px;
+    margin-left: 50px;
+    position: sticky;
+    top: 0;
+    margin-bottom: 2%;
+}
+#subDiv{
+    /* cart Item */
+    
+    border: 2px solid rgb(225, 225, 235);
+    grid-template-rows: auto;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+#subDiv1 > div:hover{
+    background-color: rgb(241, 239, 235);
+}
+#subDiv1{
+    /* payment options */
+    margin-top: 10px;
+    height: 310px;
+    padding-top: 30px;
+    border: 2px solid rgb(225, 225, 235);
+    padding-left: 20px;
+    border-radius: 10px;
+    position:sticky;
+    top: 0;
+}
+.itemDiv{
+    /* for individual item */
+ 
+    border: 1px solid rgb(225, 225, 235);
+    grid-template-columns: 30% 40% 30%;
+    height: 90%;
+    border-radius: 10px;
+    margin:10px;
+}
+
+#imgR{
+    width: 150px;
+    height: 170px;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+h1{
+    margin-left: 50px;
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-top: 10px;
+    position: sticky;
+    top: 0;
+    border: none;
+    background-color: transparent;
+}
+#contentDiv > #paraDiv{
+    width: 100%;
+    height: 50%;
+    margin-left: 1.5%;
+    padding: 10px;
+}
+#pTag1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+            line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    font-size: 10px;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+}
+#pTag1 + p {
+    line-height: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+#price{
+    margin-left: 10px;
+    font-size: 16px;
+}
+#rightDiv{
+    display: inline-block;
+    width: 100px;
+    height: 60px;
+    margin-left: 45px;
+    vertical-align: top;
+}
+#rightDiv2{
+    display: inline-block;
+    width: 15px;
+    height: 60px;
+    margin-left: 0px;
+}
+#leftDiv{
+    display: inline-block;
+    vertical-align: top;
+}
+#fromCounty, #dispatched, #delivery {
+    font-size: 12px;
+    margin-left: 30px;
+    font-weight: 500;
+    line-height: 5px;
+    margin-top: 15px;
+}
+#imagesymbol{
+    width: 10px;
+    height: 50px;
+    vertical-align: top;
+}
+#quant{
+    width: 100px;
+    height: 40px;
+    border: 1px solid rgb(164, 164, 179);
+    border-radius: 1%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    padding-left: 1%;
+    padding-right:1% ;
+    border-radius: 6px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+#incDec{
+    border-left: 1px solid rgb(225, 225, 235);
+    margin-left: 20px;
+}
+.inc , .dec {
+    border: none;
+    width: 30px;
+    font-size: 25px;
+    background-color: transparent;
+}
+.inc:hover , .dec:hover {
+    border: none;
+    font-size: 25px;
+    background-color: rgba(209, 206, 206, 0.877);
+    border-radius: 50%;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+}
+#shipping{
+    border-bottom: 1px solid rgb(240, 234, 234);
+    width: 95%;
+    height: 70px;
+}
+#iconPlane{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+#shipping > div{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 22px;
+}
+div > h3{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 600;
+    vertical-align: top;
+   
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#change1{
+    margin-left: 200px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.change{
+    color: rgb(114, 196, 223);
+}
+#deliveryAdd{
+    border-bottom:  1px solid rgb(240, 234, 234);
+    width: 95%;
+    height: 60px;
+    margin-top: 10px;
+}
+#location{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+}
+#deliveryAdd > div{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 22px;
+}
+.change1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 110px;
+    font-size: 18px;
+}
+#paymentMethod{
+    border-bottom:  1px solid rgb(240, 234, 234);
+    width: 95%;
+    height: 60px;
+    margin-top: 10px;
+}
+#paymentMethod > div{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 22px;
+}
+#payLogo{
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+.plusSign{
+    margin-left: 230px;
+    font-size: 25px;
+    font-weight: bold;
+}
+#subtotal{
+    border-bottom: 1px solid rgb(240, 234, 234);
+    width: 95%;
+    height: 60px; 
+    margin-top: 10px;
+}
+#subtotal > div{
+    display: inline-block;
+    vertical-align: top;
+    line-height: 25px;
+}
+#subLogo{
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+}
+#btnPlaceOrder{
+    width: 300px;
+    margin-top: 66px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(138, 100, 100);
+    font-weight: bold;
+    background-color: wheat;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#total{
+    margin-left: 300px;
+    font-size: 25px;
+}
+@media only screen and(max-width:500) {
+    #mobile{
+          font-size: 16px;
+    }
+    #btnPlaceOrder{
+        max-width: 20px;
+        padding-left: 2em;
+        padding-right: 2em;
+    }
+    #h1Tag{
+        font-size: 8px;
+    
+    }
+    #subDiv1{
+        margin-top: 2rem;
+    }
+    
+h1{
+ font-size: 8px
+    
+}
+img{
+    width:10%;
+}
+    
+}
