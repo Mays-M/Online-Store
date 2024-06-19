@@ -2,7 +2,7 @@
 
  <p>The idea of the website to have a dynamic online store that help the customers to find their needs in different path of life. </p>
  
- <p>The website was inspire by zara.fi. The ideaa of choosing this name because I found this name can be avilable in the market and easy to remember. Zanobia a name you be intersting about it and isn't easy to forget.</p>
+ <p> The website was inspired by Zara.fi. I chose this name because I believe it is marketable and easy to remember. Zanobia is a name that I find intriguing and memorable. </p>
 
 
 
