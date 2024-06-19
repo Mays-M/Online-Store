@@ -48,11 +48,7 @@ The resoures used in this assignment is many websites to get ideas for the proje
 * Payment Page: user will have to fill their payment details.
 
 ### 📌 How to use
-Users can log in into the website by clicking the login button and fill in the right credentials, 
-new users can register themself by clicking on the register button and fill a simple form, after successful 
-login user can start shopping, they can choose the category that they like also they can sort the product 
-according to their choice, after choosing a product they can add it to the cart or keep it on the wishlist.
-They can place an order by simply clicking on the place order.
+<p>Users can access the website by clicking the login button and entering their credentials. New users can register by clicking on the register button and completing a simple form. Once logged in successfully, users can begin shopping. They can browse categories of interest and sort products according to their preferences. After selecting a product, they can add it to their cart or save it to their wishlist. To complete a purchase, users can simply click on "place order."</p>
 
 
 ## Creators: Mays-M
