@@ -55,9 +55,7 @@ according to their choice, after choosing a product they can add it to the cart 
 They can place an order by simply clicking on the place order.
 
 
-## Creators  
-
-#### Mays-M
+## Creators: Mays-M
 
 
 
